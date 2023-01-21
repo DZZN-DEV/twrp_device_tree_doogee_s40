@@ -31,7 +31,7 @@ repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.
 Then add this project to a new local manifest (.repo/local_manifests/<your-file-name.xml>:
 
 ```xml
-<project name="twrp_device_tree_doogee_s40" path="device/doogee/S40" remote="janisslsm" revision="android-9" />
+<project name="twrp_device_tree_doogee_s40" path="device/doogee/S40" remote="janisslsm" revision="android-9.0" />
 ```
 
 Now you can sync your source:
