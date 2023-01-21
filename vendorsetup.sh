@@ -1,0 +1,3 @@
+add_lunch_combo omni_S40-user
+add_lunch_combo omni_S40-userdebug
+add_lunch_combo omni_S40-eng
