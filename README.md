@@ -23,7 +23,7 @@ Release Date | March 2019
 
 ## Compile
 
-First download minimal AOSP android-9 tree:
+First download minimal Omni android-9 tree:
 
 ```
 repo init -u git://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni.git -b twrp-9.0
