@@ -120,7 +120,20 @@ TW_EXCLUDE_TWRPAPP := true
 
 ALLOW_MISSING_DEPENDENCIES := true
 
-# PBRP
-PB_GO := TRUE
-PB_DISABLE_DEFAULT_DM_VERITY := true
+# SHRP Defaults
+SHRP_MAINTAINER := DZZN
+SHRP_DEVICE_CODE := S40
+SHRP_PATH := device/doogee/$(SHRP_DEVICE_CODE)
+SHRP_REC_TYPE := Treble
+SHRP_DEVICE_TYPE := A-Only
+SHRP_EDL_MODE := 0
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usbotg
+SHRP_FLASH := 1
+SHRP_DARK := true
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+SHRP_HAS_RECOVERY_PARTITION := true
+SHRP_NO_SAR_AUTOMOUNT := true
+SHRP_LITE := true
 
