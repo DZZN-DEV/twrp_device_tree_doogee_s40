@@ -15,15 +15,15 @@
 #
 
 Default_Settings() {
-	echo "Exporting build enviorment variables."
+    echo "Exporting build enviorment variables."
 	
-  	export ALLOW_MISSING_DEPENDENCIES=true
+    export ALLOW_MISSING_DEPENDENCIES=true
     export TARGET_ARCH=arm64
     #export BUILD_2GB_VERSION=1
     export FOX_REPLACE_BUSYBOX_PS=1
-  	export FOX_USE_BASH_SHELL=1
-  	export FOX_USE_LZMA_COMPRESSION=1
-  	export FOX_USE_NANO_EDITOR=1
+    export FOX_USE_BASH_SHELL=1
+    export FOX_USE_LZMA_COMPRESSION=1
+    export FOX_USE_NANO_EDITOR=1
     export OF_USE_MAGISKBOOT=1
     export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
     export OF_TWRP_COMPATIBILITY_MODE=1
@@ -32,17 +32,17 @@ Default_Settings() {
     export OF_DISABLE_DM_VERITY_FORCED_ENCRYPTION=1
     export OF_NO_MIUI_OTA_VENDOR_BACKUP=1
     export OF_DONT_PATCH_ENCRYPTED_DEVICE=1
-   	export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
-	  export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
-  	export OF_USE_NEW_MAGISKBOOT=1
+    export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
+    export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES=1
+    export OF_USE_NEW_MAGISKBOOT=1
     export FOX_USE_TWRP_RECOVERY_IMAGE_BUILDER=1
     export FOX_DELETE_AROMAFM=1
     export OF_USE_GREEN_LED=0
     export OF_FLASHLIGHT_ENABLE=1
     export TW_DEFAULT_LANGUAGE="en"
-  	export FOX_BUILD_TYPE="UNOFFICIAL"
-  	export FOX_VERSION="9.0"
-  	export USE_CCACHE=1
+    export FOX_BUILD_TYPE="UNOFFICIAL"
+    export FOX_VERSION="9.0"
+    export USE_CCACHE=1
     export OF_MAINTAINER=DZZN-DEV
     export OF_HIDE_NOTCH=1
     export OF_CLOCK_POS=1
